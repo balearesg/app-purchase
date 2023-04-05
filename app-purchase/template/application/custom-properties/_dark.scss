@@ -1,0 +1,27 @@
+@mixin properties() {
+	--primary: #39a9dc;
+	--primary-dark: #013248;
+	--primary-light: #3c7586;
+	--primary-accent: #39a9dc;
+	--text-on-primary: #ffffff;
+
+	--secondary: #87c544;
+	--secondary-dark: #55940a;
+	--secondary-light: #baf874;
+	--secondary-accent: #f7c700;
+	--text-on-secondary: #ededed;
+
+	--background: #002130;
+	--text-color: var(--gray-darker);
+	--element-bg: #fff;
+	--border: transparent;
+	--border-variant: #e1e5ef;
+	--text: #ffffffde;
+	--error: #dc3545;
+
+	--surface: #2d485a;
+	--icon-color: #fff;
+	--input-bg: #002130;
+	--border-color: var(--primary-dark);
+	--box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}

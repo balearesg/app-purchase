@@ -1,0 +1,14 @@
+{
+	"name": "plugins/cordova/purchase",
+	"widget": {
+		"route": "/cordova-purchase",
+		"is": "page",
+		"ts": {
+			"path": "/widget/ts",
+			"files": ["*"]
+		},
+		"element": {
+			"name": "purchase-plugin"
+		}
+	}
+}

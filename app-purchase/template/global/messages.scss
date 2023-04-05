@@ -1,0 +1,13 @@
+.error {
+	color: var(--error);
+	font-size: 0.8rem;
+}
+
+.alert {
+	background: #3c758658;
+	border: 1px solid var(--primary-light);
+	padding: 1.5rem 2rem;
+	display: grid;
+	place-content: center;
+	margin: 1rem 0;
+}

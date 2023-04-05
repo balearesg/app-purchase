@@ -1,0 +1,13 @@
+main {
+	display: flow-root;
+	width: 100%;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	padding: 15px;
+	color: var(--gray-lighter);
+	font-size: 0.8rem;
+	right: 2rem;
+}

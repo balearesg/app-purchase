@@ -1,0 +1,23 @@
+form {
+	display: grid;
+	gap: 2rem;
+}
+
+input {
+	background: var(--primary-dark);
+	color: var(--text-on-primary);
+	border: 1px solid var(--primary-accent);
+	border-radius: 8px;
+	font-size: 1rem;
+
+	height: min-content;
+
+	padding: 0.5rem 1rem;
+}
+
+label {
+	color: var(--text-on-primary);
+	height: min-content;
+	display: grid;
+	gap: 1rem;
+}

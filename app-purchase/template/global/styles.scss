@@ -1,0 +1,10 @@
+* {
+	font-family: var(--font-family);
+	color: var(--text-on-primary);
+}
+
+main {
+	position: relative;
+	height: fit-content;
+	min-height: 100vh;
+}

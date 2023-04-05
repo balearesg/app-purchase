@@ -1,0 +1,19 @@
+button {
+	background: var(--primary-accent);
+	color: var(--text-on-primary);
+	border: 0;
+	cursor: pointer;
+	height: min-content;
+	padding: 0.6rem 2rem;
+	font-size: 1.1rem;
+	transition: all 300ms ease-in;
+
+	&:hover {
+		opacity: 0.8;
+	}
+
+	&:disabled {
+		cursor: not-allowed;
+		opacity: 0.4;
+	}
+}

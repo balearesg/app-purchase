@@ -1,0 +1,16 @@
+.plugin-page {
+	min-height: 92vh;
+	height: min-content;
+
+	padding: 1.5rem 1.5rem 2rem;
+
+	grid-template-rows: 50px auto;
+	gap: 2rem;
+
+	.content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		height: 80%;
+	}
+}

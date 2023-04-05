@@ -1,0 +1,26 @@
+.in-app-purchase-view {
+	.content {
+		.tabs {
+			.tabs-manager {
+				background: var(--primary-dark);
+				width: min-content;
+				display: flex;
+				gap: 1rem;
+				padding: 0.5rem;
+
+				.tab {
+					opacity: 0.2;
+
+					&.selected {
+						opacity: 1;
+					}
+				}
+			}
+
+			.tabs-content {
+				background: var(--primary-dark);
+				padding: 0.5rem;
+			}
+		}
+	}
+}
